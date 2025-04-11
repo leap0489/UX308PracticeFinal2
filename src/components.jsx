@@ -1,4 +1,4 @@
-import {hello, feetToAcre} from './functions.js';
+import {hello, feetToAcre, airQuality} from './functions.js';
 
 function Question1(){
     return <section>
@@ -20,4 +20,17 @@ function Question1Real(){
     </section>
 }
 
-export {Question1, Question1Real}
+function Question2(){
+    return <section>
+1. convert air quality given an index 
+    <h2>results</h2>
+    <p>airQuality(13) == "{airQuality(13)}"</p>
+    <p>airQuality(53) == "{airQuality(53)}"</p>
+    <p>airQuality(113) == "{airQuality(113)}"</p>
+    <p>airQuality(173) == "{airQuality(173)}"</p>
+    <p>airQuality(230) == "{airQuality(260)}"</p>
+    <p>airQuality(700) == "{airQuality(700)}"</p>
+    </section>
+}
+
+export {Question1, Question1Real, Question2}
