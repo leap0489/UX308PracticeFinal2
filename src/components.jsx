@@ -1,4 +1,4 @@
-import {hello, feetToAcre, airQuality} from './functions.js';
+import {hello, feetToAcre, airQuality, yeeha} from './functions.js';
 
 function Question1(){
     return <section>
@@ -22,7 +22,7 @@ function Question1Real(){
 
 function Question2(){
     return <section>
-1. convert air quality given an index 
+2. convert air quality given an index 
     <h2>results</h2>
     <p>airQuality(13) == "{airQuality(13)}"</p>
     <p>airQuality(53) == "{airQuality(53)}"</p>
@@ -33,4 +33,15 @@ function Question2(){
     </section>
 }
 
-export {Question1, Question1Real, Question2}
+function Question3(){
+    return <section>
+3. Integer shit yee ha
+        <h2>results</h2>
+        <p>yeeha(9) == "{yeeha(9)}"</p>
+        <p>yeeha(21) == "{yeeha(21)}"</p>
+        <p>yeeha(28) == "{yeeha(28)}"</p>
+        <p>yeeha(13) == "{yeeha(13)}"</p>
+    </section>
+}
+
+export {Question1, Question1Real, Question2, Question3}
