@@ -39,4 +39,17 @@ function yeeha (integer) {
     return response;
 }
 
-export {hello, feetToAcre, airQuality, yeeha}
+function gymCost (friends, currentCost){
+    let discountCost;
+    if (friends == 0){
+        discountCost = currentCost;
+    }else if (friends == 1){
+        discountCost = 0.95 * currentCost;
+    }else if (friends == 2){
+        discountCost = 0.90 * currentCost;
+    }else if (friends >= 3){
+        discountCost = 0.85 * currentCost;
+    }
+    return discountCost;
+}
+export {hello, feetToAcre, airQuality, yeeha, gymCost}

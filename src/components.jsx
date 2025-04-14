@@ -1,4 +1,4 @@
-import {hello, feetToAcre, airQuality, yeeha} from './functions.js';
+import {hello, feetToAcre, airQuality, yeeha, gymCost} from './functions.js';
 
 function Question1(){
     return <section>
@@ -44,4 +44,15 @@ function Question3(){
     </section>
 }
 
-export {Question1, Question1Real, Question2, Question3}
+function Question4(){
+    return <section>
+    4. Gym question
+            <h2>results</h2>
+            <p>gymCost(0,30) == "{gymCost(0,30)}"</p>
+            <p>gymCost(1,30) == "{gymCost(1,30)}"</p>
+            <p>gymCost(2,30) == "{gymCost(2,30)}"</p>
+            <p>gymCost(3,30) == "{gymCost(3,30)}"</p>
+        </section>
+}
+
+export {Question1, Question1Real, Question2, Question3, Question4}
