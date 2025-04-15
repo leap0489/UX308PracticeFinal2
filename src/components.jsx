@@ -1,4 +1,4 @@
-import {hello, feetToAcre, airQuality, yeeha, gymCost} from './functions.js';
+import {hello, feetToAcre, airQuality, yeeha, gymCost, countCoin, lawnTime} from './functions.js';
 
 function Question1(){
     return <section>
@@ -55,4 +55,20 @@ function Question4(){
         </section>
 }
 
-export {Question1, Question1Real, Question2, Question3, Question4}
+function Question5(){
+    return <section>
+    5. Coin question
+            <h2>results</h2>
+            <p>countCoin(3,4,5,6,6) == "{countCoin(3,4,5,6,6)}"</p>
+        </section>
+}
+
+function Question6(){
+    return <section>
+    6. Lawn question
+            <h2>results</h2>
+            <p>lawnTime(4,5,2) == "{lawnTime(4,5,2)}"</p>
+        </section>
+}
+
+export {Question1, Question1Real, Question2, Question3, Question4, Question5, Question6}
