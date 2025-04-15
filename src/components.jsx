@@ -1,4 +1,4 @@
-import {hello, feetToAcre, airQuality, yeeha, gymCost, countCoin, lawnTime} from './functions.js';
+import {hello, feetToAcre, airQuality, yeeha, gymCost, countCoin, lawnTime, calculateVolume} from './functions.js';
 
 function Question1(){
     return <section>
@@ -71,4 +71,12 @@ function Question6(){
         </section>
 }
 
-export {Question1, Question1Real, Question2, Question3, Question4, Question5, Question6}
+function Question7(){
+    return <section>
+    7. Equilateral triangle volume 
+            <h2>results</h2>
+            <p>calculateVolume(3,10) == "{calculateVolume(3,10)}"</p>
+        </section>
+}
+
+export {Question1, Question1Real, Question2, Question3, Question4, Question5, Question6, Question7}

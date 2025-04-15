@@ -69,4 +69,9 @@ function lawnTime (width, length, rate){
     return time;
 }
 
-export {hello, feetToAcre, airQuality, yeeha, gymCost, countCoin, lawnTime}
+function calculateVolume (length, height){
+    let volume = (Math.sqrt(3)/4) * (length**2) * height;
+    return volume;
+}
+
+export {hello, feetToAcre, airQuality, yeeha, gymCost, countCoin, lawnTime, calculateVolume}
