@@ -74,4 +74,9 @@ function calculateVolume (length, height){
     return volume;
 }
 
-export {hello, feetToAcre, airQuality, yeeha, gymCost, countCoin, lawnTime, calculateVolume}
+function slope (x1,y1,x2,y2){
+    let slope = (y2-y1)/(x2-x1);
+    return slope;
+}
+
+export {hello, feetToAcre, airQuality, yeeha, gymCost, countCoin, lawnTime, calculateVolume, slope}
